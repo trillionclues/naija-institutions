@@ -1,0 +1,40 @@
+{
+  "name": "naija-institutions",
+  "version": "1.0.0",
+  "description": "A package that returns data of all Nigerian federal, state and private institutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.ts --exec ts-node --ignore 'src/**/*.test.ts'",
+    "build": "npm install && tsc",
+    "tsc": "./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trillionclues/naija-institutions.git"
+  },
+  "keywords": [
+    "Nigerian",
+    "institutions",
+    "Naija",
+    "Universities",
+    "npm",
+    "package"
+  ],
+  "author": "Excel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trillionclues/naija-institutions/issues"
+  },
+  "homepage": "https://github.com/trillionclues/naija-institutions#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "csv-parser": "^3.0.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
